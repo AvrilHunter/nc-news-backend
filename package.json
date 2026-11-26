@@ -8,8 +8,7 @@
     "seed": "node ./db/seeds/run-seed.js",
     "test": "jest",
     "start": "node listen.js",
-    "seed-prod": "NODE_ENV=production npm run seed",
-    "prepare": "husky install"
+    "seed-prod": "NODE_ENV=production npm run seed"
   },
   "repository": {
     "type": "git",
@@ -23,16 +22,16 @@
   },
   "homepage": "https://github.com/northcoders/be-nc-news#readme",
   "devDependencies": {
-    "jest": "^30.5.1",
+    "jest": "^30.5.2",
     "jest-extended": "^7.0.0",
     "jest-sorted": "^1.0.15",
-    "supertest": "^7.2.2"
+    "supertest": "^7.3.2"
   },
   "dependencies": {
     "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "pg": "^8.23.0",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
     "pg-format": "^1.0.4"
   },
   "jest": {

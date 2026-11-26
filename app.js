@@ -16,7 +16,7 @@ app.use(express.json())
 
 app.use("/api", apiRouter)
 
-app.use("/*", (req, res, next) => {
+app.use("/{*all}", (req, res, next) => {
   next({ status: 404, message: "not found" });
 });
 
